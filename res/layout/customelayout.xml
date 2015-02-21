@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
 
     <TextView
         android:id="@+id/lblTitle"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
         android:text="TextView"
         android:textSize="15sp" />
-
-    <TextView
-        android:id="@+id/lblDesc"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#717171"
-        android:textSize="10sp" />
 
     <TextView
         android:id="@+id/lblDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblDesc"
         android:text="TextView" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/lblDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblTitle"
+        android:text="TextView"
+        android:textColor="#717171"
+        android:textSize="10sp" />
+
+</RelativeLayout>
