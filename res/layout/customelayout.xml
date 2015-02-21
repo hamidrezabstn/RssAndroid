@@ -17,7 +17,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="TextView"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="sdsdsdsdsdsdsdjsdfhsdfhsdfhsdfhsfshdfshdfhdfjsdhfjsdhsdjfhksjfhsjkdfhsjkd"
         android:textSize="15sp" />
 
     <TextView
@@ -34,7 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/lblTitle"
-        android:text="TextView"
+            android:layout_toRightOf="@+id/imageView1"
+        android:text="skdjgasdgasdhgafgsdfgdfgsdfgsufgsdufsdufsdufgsdfugsdfugdfugsdufgsduf"
         android:textColor="#717171"
         android:textSize="10sp" />
 

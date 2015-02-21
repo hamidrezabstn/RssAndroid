@@ -29,8 +29,8 @@ public final class R {
         public static final int barRemain=0x7f080001;
         public static final int container=0x7f080003;
         public static final int imageView1=0x7f080005;
-        public static final int lblDate=0x7f080008;
-        public static final int lblDesc=0x7f080007;
+        public static final int lblDate=0x7f080007;
+        public static final int lblDesc=0x7f080008;
         public static final int lblTitle=0x7f080006;
         public static final int lsNews=0x7f080000;
         public static final int txtPercent=0x7f080002;
