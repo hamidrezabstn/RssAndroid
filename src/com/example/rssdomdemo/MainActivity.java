@@ -75,7 +75,8 @@ public class MainActivity extends Activity {
     	        	newsItems.setLink(items.get(i).getChild("link").getValue());
     	        	newsItems.setPubDate(items.get(i).getChild("pubDate").getValue());
     	        	
-    	        	publishProgress(String.valueOf(100/(items.size()-i)));
+    	        	publishProgress(String.valueOf((100/(items.size()-i))));
+    	        	Thread.sleep(10);
     	        	
     	        	result.add(newsItems);
     	        }
